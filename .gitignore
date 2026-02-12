@@ -205,3 +205,20 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# --- Pragyan-Netra Specific ---
+# AI Models (Too large for GitHub)
+vosk-model/
+*.pt
+*.onnx
+*.weights
+
+# Local Project Data
+data/face_memory/
+data/face_samples/
+data/obstacle_samples/
+data/test_images/
+data/test_videos/
+
+# Keep the faces folder structure but ignore personal images inside
+# data/faces/*
+# !data/faces/.gitkeep
